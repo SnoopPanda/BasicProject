@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NXVLogFormatter.h"
+#import "SPBaseViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +16,21 @@
 
 @implementation AppDelegate
 
+- (void)initializeDDLogger
+{
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    [[DDTTYLogger sharedInstance] setLogFormatter:[NXVLogFormatter new]];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initializeDDLogger];
+    
+    
+//    self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+//    self.window.rootViewController = [[SPBaseViewController alloc] init];
+//    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
@@ -46,6 +60,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
 
 @end

@@ -6,4 +6,6 @@
 //  Copyright © 2017年 SnoopPanda. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "SPConstant.h"
+
+NSString * const SPLoginSuccessNotification = @"SPLoginSuccessNotification";

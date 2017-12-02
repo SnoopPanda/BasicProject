@@ -9,5 +9,8 @@
 #ifndef SPConstant_h
 #define SPConstant_h
 
+// Project constant
+
+extern NSString * const SPLoginSuccessNotification;
 
 #endif /* SPConstant_h */

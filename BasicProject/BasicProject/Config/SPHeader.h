@@ -9,5 +9,15 @@
 #ifndef SPHeader_h
 #define SPHeader_h
 
+// Import 3rd-party, Common header
+
+#import "CocoaLumberjack.h"
+
+#ifdef DEBUG
+static DDLogLevel const ddLogLevel = DDLogLevelVerbose;
+#else
+static DDLogLevel const ddLogLevel = DDLogLevelOff;
+#endif
+
 
 #endif /* SPHeader_h */

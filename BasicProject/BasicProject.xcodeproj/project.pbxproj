@@ -16,6 +16,35 @@
 		A0487EAA1FD1B02A00FC3BC0 /* SPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0487EA91FD1B02A00FC3BC0 /* SPBaseViewController.m */; };
 		A0487EAD1FD1B05300FC3BC0 /* SPBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0487EAC1FD1B05300FC3BC0 /* SPBaseTabBarController.m */; };
 		A0487EB01FD1B07A00FC3BC0 /* SPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0487EAF1FD1B07A00FC3BC0 /* SPBaseNavigationController.m */; };
+		A0CA73541FD23E05006E1593 /* SPConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73531FD23E05006E1593 /* SPConstant.m */; };
+		A0CA73651FD2AF3E006E1593 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA735C1FD2AF3E006E1593 /* AFURLResponseSerialization.m */; };
+		A0CA73661FD2AF3E006E1593 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA735D1FD2AF3E006E1593 /* AFHTTPSessionManager.m */; };
+		A0CA73671FD2AF3E006E1593 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA735F1FD2AF3E006E1593 /* AFURLSessionManager.m */; };
+		A0CA73681FD2AF3E006E1593 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73601FD2AF3E006E1593 /* AFURLRequestSerialization.m */; };
+		A0CA73691FD2AF3E006E1593 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73621FD2AF3E006E1593 /* AFNetworkReachabilityManager.m */; };
+		A0CA736A1FD2AF3E006E1593 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73631FD2AF3E006E1593 /* AFSecurityPolicy.m */; };
+		A0CA73861FD2B0A3006E1593 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA736D1FD2B0A3006E1593 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		A0CA73871FD2B0A3006E1593 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73761FD2B0A3006E1593 /* ViewController+MASAdditions.m */; };
+		A0CA73881FD2B0A3006E1593 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA737A1FD2B0A3006E1593 /* MASCompositeConstraint.m */; };
+		A0CA73891FD2B0A3006E1593 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA737B1FD2B0A3006E1593 /* MASConstraintMaker.m */; };
+		A0CA738A1FD2B0A3006E1593 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA737C1FD2B0A3006E1593 /* MASLayoutConstraint.m */; };
+		A0CA738B1FD2B0A3006E1593 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA737D1FD2B0A3006E1593 /* NSArray+MASAdditions.m */; };
+		A0CA738C1FD2B0A3006E1593 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA737E1FD2B0A3006E1593 /* View+MASAdditions.m */; };
+		A0CA738D1FD2B0A3006E1593 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73811FD2B0A3006E1593 /* MASConstraint.m */; };
+		A0CA738E1FD2B0A3006E1593 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73831FD2B0A3006E1593 /* MASViewConstraint.m */; };
+		A0CA738F1FD2B0A3006E1593 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73841FD2B0A3006E1593 /* MASViewAttribute.m */; };
+		A0CA73B01FD2B206006E1593 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73921FD2B206006E1593 /* DDTTYLogger.m */; };
+		A0CA73B11FD2B206006E1593 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73951FD2B206006E1593 /* DDOSLogger.m */; };
+		A0CA73B21FD2B206006E1593 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73991FD2B206006E1593 /* DDASLLogger.m */; };
+		A0CA73B31FD2B206006E1593 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA739B1FD2B206006E1593 /* CLIColor.m */; };
+		A0CA73B51FD2B206006E1593 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73A01FD2B206006E1593 /* DDContextFilterLogFormatter.m */; };
+		A0CA73B61FD2B206006E1593 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73A11FD2B206006E1593 /* DDDispatchQueueLogFormatter.m */; };
+		A0CA73B71FD2B206006E1593 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73A41FD2B206006E1593 /* DDMultiFormatter.m */; };
+		A0CA73B81FD2B206006E1593 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73A61FD2B206006E1593 /* DDLog.m */; };
+		A0CA73B91FD2B206006E1593 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73AC1FD2B206006E1593 /* DDAbstractDatabaseLogger.m */; };
+		A0CA73BA1FD2B206006E1593 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73AD1FD2B206006E1593 /* DDFileLogger.m */; };
+		A0CA73BB1FD2B206006E1593 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73AF1FD2B206006E1593 /* DDASLLogCapture.m */; };
+		A0CA73BF1FD2B74F006E1593 /* NXVLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73BD1FD2B74F006E1593 /* NXVLogFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +85,77 @@
 		A0487EAE1FD1B07A00FC3BC0 /* SPBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPBaseNavigationController.h; sourceTree = "<group>"; };
 		A0487EAF1FD1B07A00FC3BC0 /* SPBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPBaseNavigationController.m; sourceTree = "<group>"; };
 		A0487EB41FD1B21800FC3BC0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A0CA73521FD1B5D1006E1593 /* SPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMacros.h; sourceTree = "<group>"; };
+		A0CA73531FD23E05006E1593 /* SPConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPConstant.m; sourceTree = "<group>"; };
+		A0CA73551FD23E1B006E1593 /* SPConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPConstant.h; sourceTree = "<group>"; };
+		A0CA73561FD23F81006E1593 /* SPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPHeader.h; sourceTree = "<group>"; };
+		A0CA73581FD2AF3E006E1593 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A0CA73591FD2AF3E006E1593 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A0CA735A1FD2AF3E006E1593 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A0CA735B1FD2AF3E006E1593 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A0CA735C1FD2AF3E006E1593 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A0CA735D1FD2AF3E006E1593 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A0CA735E1FD2AF3E006E1593 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A0CA735F1FD2AF3E006E1593 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A0CA73601FD2AF3E006E1593 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A0CA73611FD2AF3E006E1593 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A0CA73621FD2AF3E006E1593 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A0CA73631FD2AF3E006E1593 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A0CA73641FD2AF3E006E1593 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A0CA736C1FD2B0A3006E1593 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		A0CA736D1FD2B0A3006E1593 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A0CA736E1FD2B0A3006E1593 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		A0CA736F1FD2B0A3006E1593 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A0CA73701FD2B0A3006E1593 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A0CA73711FD2B0A3006E1593 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		A0CA73721FD2B0A3006E1593 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		A0CA73731FD2B0A3006E1593 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		A0CA73741FD2B0A3006E1593 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		A0CA73751FD2B0A3006E1593 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		A0CA73761FD2B0A3006E1593 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		A0CA73771FD2B0A3006E1593 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		A0CA73781FD2B0A3006E1593 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		A0CA73791FD2B0A3006E1593 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		A0CA737A1FD2B0A3006E1593 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		A0CA737B1FD2B0A3006E1593 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		A0CA737C1FD2B0A3006E1593 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A0CA737D1FD2B0A3006E1593 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		A0CA737E1FD2B0A3006E1593 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		A0CA737F1FD2B0A3006E1593 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A0CA73801FD2B0A3006E1593 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		A0CA73811FD2B0A3006E1593 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		A0CA73821FD2B0A3006E1593 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		A0CA73831FD2B0A3006E1593 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		A0CA73841FD2B0A3006E1593 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		A0CA73921FD2B206006E1593 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		A0CA73931FD2B206006E1593 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		A0CA73941FD2B206006E1593 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		A0CA73951FD2B206006E1593 /* DDOSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDOSLogger.m; sourceTree = "<group>"; };
+		A0CA73961FD2B206006E1593 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		A0CA73971FD2B206006E1593 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		A0CA73981FD2B206006E1593 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		A0CA73991FD2B206006E1593 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		A0CA739B1FD2B206006E1593 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		A0CA739C1FD2B206006E1593 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		A0CA739E1FD2B206006E1593 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		A0CA73A01FD2B206006E1593 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		A0CA73A11FD2B206006E1593 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		A0CA73A21FD2B206006E1593 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		A0CA73A31FD2B206006E1593 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		A0CA73A41FD2B206006E1593 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		A0CA73A51FD2B206006E1593 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		A0CA73A61FD2B206006E1593 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		A0CA73A71FD2B206006E1593 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		A0CA73A81FD2B206006E1593 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		A0CA73A91FD2B206006E1593 /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		A0CA73AA1FD2B206006E1593 /* DDOSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDOSLogger.h; sourceTree = "<group>"; };
+		A0CA73AB1FD2B206006E1593 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		A0CA73AC1FD2B206006E1593 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		A0CA73AD1FD2B206006E1593 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		A0CA73AE1FD2B206006E1593 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		A0CA73AF1FD2B206006E1593 /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		A0CA73BD1FD2B74F006E1593 /* NXVLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXVLogFormatter.m; sourceTree = "<group>"; };
+		A0CA73BE1FD2B74F006E1593 /* NXVLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXVLogFormatter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,13 +206,14 @@
 		A0487E751FD1AFA300FC3BC0 /* BasicProject */ = {
 			isa = PBXGroup;
 			children = (
-				A0487EB11FD1B0F400FC3BC0 /* Main */,
+				A0487EB11FD1B0F400FC3BC0 /* Classes */,
 				A0487EB51FD1B2C300FC3BC0 /* Expand */,
 				A0487EB21FD1B10300FC3BC0 /* Config */,
 				A0487EB61FD1B30D00FC3BC0 /* Resources */,
 				A0487E761FD1AFA300FC3BC0 /* AppDelegate.h */,
 				A0487E771FD1AFA300FC3BC0 /* AppDelegate.m */,
 				A0487E851FD1AFA300FC3BC0 /* main.m */,
+				A0487E841FD1AFA300FC3BC0 /* Info.plist */,
 			);
 			path = BasicProject;
 			sourceTree = "<group>";
@@ -135,7 +236,7 @@
 			path = BasicProjectUITests;
 			sourceTree = "<group>";
 		};
-		A0487EB11FD1B0F400FC3BC0 /* Main */ = {
+		A0487EB11FD1B0F400FC3BC0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				A0487EB31FD1B10E00FC3BC0 /* Vendor */,
@@ -146,13 +247,17 @@
 				A0487EAE1FD1B07A00FC3BC0 /* SPBaseNavigationController.h */,
 				A0487EAF1FD1B07A00FC3BC0 /* SPBaseNavigationController.m */,
 			);
-			path = Main;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		A0487EB21FD1B10300FC3BC0 /* Config */ = {
 			isa = PBXGroup;
 			children = (
 				A0487EB41FD1B21800FC3BC0 /* PrefixHeader.pch */,
+				A0CA73521FD1B5D1006E1593 /* SPMacros.h */,
+				A0CA73561FD23F81006E1593 /* SPHeader.h */,
+				A0CA73551FD23E1B006E1593 /* SPConstant.h */,
+				A0CA73531FD23E05006E1593 /* SPConstant.m */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -160,6 +265,9 @@
 		A0487EB31FD1B10E00FC3BC0 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				A0CA73911FD2B206006E1593 /* CocoaLumberjack */,
+				A0CA736B1FD2B0A2006E1593 /* Masonry */,
+				A0CA73571FD2AF3E006E1593 /* AFNetworking */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -175,10 +283,121 @@
 			isa = PBXGroup;
 			children = (
 				A0487E811FD1AFA300FC3BC0 /* LaunchScreen.storyboard */,
-				A0487E841FD1AFA300FC3BC0 /* Info.plist */,
 				A0487E7F1FD1AFA300FC3BC0 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0CA73571FD2AF3E006E1593 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA73581FD2AF3E006E1593 /* AFSecurityPolicy.h */,
+				A0CA73591FD2AF3E006E1593 /* AFNetworkReachabilityManager.h */,
+				A0CA735A1FD2AF3E006E1593 /* AFURLSessionManager.h */,
+				A0CA735B1FD2AF3E006E1593 /* AFURLRequestSerialization.h */,
+				A0CA735C1FD2AF3E006E1593 /* AFURLResponseSerialization.m */,
+				A0CA735D1FD2AF3E006E1593 /* AFHTTPSessionManager.m */,
+				A0CA735E1FD2AF3E006E1593 /* AFURLResponseSerialization.h */,
+				A0CA735F1FD2AF3E006E1593 /* AFURLSessionManager.m */,
+				A0CA73601FD2AF3E006E1593 /* AFURLRequestSerialization.m */,
+				A0CA73611FD2AF3E006E1593 /* AFNetworking.h */,
+				A0CA73621FD2AF3E006E1593 /* AFNetworkReachabilityManager.m */,
+				A0CA73631FD2AF3E006E1593 /* AFSecurityPolicy.m */,
+				A0CA73641FD2AF3E006E1593 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A0CA736B1FD2B0A2006E1593 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA736C1FD2B0A3006E1593 /* MASCompositeConstraint.h */,
+				A0CA736D1FD2B0A3006E1593 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				A0CA736E1FD2B0A3006E1593 /* MASConstraint+Private.h */,
+				A0CA736F1FD2B0A3006E1593 /* MASLayoutConstraint.h */,
+				A0CA73701FD2B0A3006E1593 /* NSArray+MASShorthandAdditions.h */,
+				A0CA73711FD2B0A3006E1593 /* MASConstraintMaker.h */,
+				A0CA73721FD2B0A3006E1593 /* View+MASAdditions.h */,
+				A0CA73731FD2B0A3006E1593 /* NSArray+MASAdditions.h */,
+				A0CA73741FD2B0A3006E1593 /* MASUtilities.h */,
+				A0CA73751FD2B0A3006E1593 /* MASViewAttribute.h */,
+				A0CA73761FD2B0A3006E1593 /* ViewController+MASAdditions.m */,
+				A0CA73771FD2B0A3006E1593 /* MASViewConstraint.h */,
+				A0CA73781FD2B0A3006E1593 /* MASConstraint.h */,
+				A0CA73791FD2B0A3006E1593 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A0CA737A1FD2B0A3006E1593 /* MASCompositeConstraint.m */,
+				A0CA737B1FD2B0A3006E1593 /* MASConstraintMaker.m */,
+				A0CA737C1FD2B0A3006E1593 /* MASLayoutConstraint.m */,
+				A0CA737D1FD2B0A3006E1593 /* NSArray+MASAdditions.m */,
+				A0CA737E1FD2B0A3006E1593 /* View+MASAdditions.m */,
+				A0CA737F1FD2B0A3006E1593 /* View+MASShorthandAdditions.h */,
+				A0CA73801FD2B0A3006E1593 /* Masonry.h */,
+				A0CA73811FD2B0A3006E1593 /* MASConstraint.m */,
+				A0CA73821FD2B0A3006E1593 /* ViewController+MASAdditions.h */,
+				A0CA73831FD2B0A3006E1593 /* MASViewConstraint.m */,
+				A0CA73841FD2B0A3006E1593 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		A0CA73911FD2B206006E1593 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA73BC1FD2B74F006E1593 /* NXVLogFormatter */,
+				A0CA73921FD2B206006E1593 /* DDTTYLogger.m */,
+				A0CA73931FD2B206006E1593 /* DDLog.h */,
+				A0CA73941FD2B206006E1593 /* DDLegacyMacros.h */,
+				A0CA73951FD2B206006E1593 /* DDOSLogger.m */,
+				A0CA73961FD2B206006E1593 /* DDAbstractDatabaseLogger.h */,
+				A0CA73971FD2B206006E1593 /* DDLogMacros.h */,
+				A0CA73981FD2B206006E1593 /* DDASLLogCapture.h */,
+				A0CA73991FD2B206006E1593 /* DDASLLogger.m */,
+				A0CA739A1FD2B206006E1593 /* CLI */,
+				A0CA739E1FD2B206006E1593 /* DDFileLogger.h */,
+				A0CA739F1FD2B206006E1593 /* Extensions */,
+				A0CA73A61FD2B206006E1593 /* DDLog.m */,
+				A0CA73A71FD2B206006E1593 /* CocoaLumberjack.h */,
+				A0CA73A81FD2B206006E1593 /* DDTTYLogger.h */,
+				A0CA73A91FD2B206006E1593 /* DDAssertMacros.h */,
+				A0CA73AA1FD2B206006E1593 /* DDOSLogger.h */,
+				A0CA73AB1FD2B206006E1593 /* DDLog+LOGV.h */,
+				A0CA73AC1FD2B206006E1593 /* DDAbstractDatabaseLogger.m */,
+				A0CA73AD1FD2B206006E1593 /* DDFileLogger.m */,
+				A0CA73AE1FD2B206006E1593 /* DDASLLogger.h */,
+				A0CA73AF1FD2B206006E1593 /* DDASLLogCapture.m */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		A0CA739A1FD2B206006E1593 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA739B1FD2B206006E1593 /* CLIColor.m */,
+				A0CA739C1FD2B206006E1593 /* CLIColor.h */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		A0CA739F1FD2B206006E1593 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA73A01FD2B206006E1593 /* DDContextFilterLogFormatter.m */,
+				A0CA73A11FD2B206006E1593 /* DDDispatchQueueLogFormatter.m */,
+				A0CA73A21FD2B206006E1593 /* DDMultiFormatter.h */,
+				A0CA73A31FD2B206006E1593 /* DDContextFilterLogFormatter.h */,
+				A0CA73A41FD2B206006E1593 /* DDMultiFormatter.m */,
+				A0CA73A51FD2B206006E1593 /* DDDispatchQueueLogFormatter.h */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A0CA73BC1FD2B74F006E1593 /* NXVLogFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA73BE1FD2B74F006E1593 /* NXVLogFormatter.h */,
+				A0CA73BD1FD2B74F006E1593 /* NXVLogFormatter.m */,
+			);
+			path = NXVLogFormatter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,11 +533,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CA73B71FD2B206006E1593 /* DDMultiFormatter.m in Sources */,
+				A0CA73BA1FD2B206006E1593 /* DDFileLogger.m in Sources */,
+				A0CA738C1FD2B0A3006E1593 /* View+MASAdditions.m in Sources */,
+				A0CA73B11FD2B206006E1593 /* DDOSLogger.m in Sources */,
+				A0CA738F1FD2B0A3006E1593 /* MASViewAttribute.m in Sources */,
+				A0CA73B61FD2B206006E1593 /* DDDispatchQueueLogFormatter.m in Sources */,
+				A0CA73861FD2B0A3006E1593 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A0CA73B91FD2B206006E1593 /* DDAbstractDatabaseLogger.m in Sources */,
+				A0CA73B21FD2B206006E1593 /* DDASLLogger.m in Sources */,
+				A0CA73671FD2AF3E006E1593 /* AFURLSessionManager.m in Sources */,
+				A0CA73B31FD2B206006E1593 /* CLIColor.m in Sources */,
 				A0487EAA1FD1B02A00FC3BC0 /* SPBaseViewController.m in Sources */,
+				A0CA738D1FD2B0A3006E1593 /* MASConstraint.m in Sources */,
+				A0CA73B51FD2B206006E1593 /* DDContextFilterLogFormatter.m in Sources */,
 				A0487EAD1FD1B05300FC3BC0 /* SPBaseTabBarController.m in Sources */,
+				A0CA73881FD2B0A3006E1593 /* MASCompositeConstraint.m in Sources */,
+				A0CA73B01FD2B206006E1593 /* DDTTYLogger.m in Sources */,
+				A0CA73BB1FD2B206006E1593 /* DDASLLogCapture.m in Sources */,
+				A0CA73891FD2B0A3006E1593 /* MASConstraintMaker.m in Sources */,
+				A0CA73871FD2B0A3006E1593 /* ViewController+MASAdditions.m in Sources */,
+				A0CA73B81FD2B206006E1593 /* DDLog.m in Sources */,
 				A0487EB01FD1B07A00FC3BC0 /* SPBaseNavigationController.m in Sources */,
+				A0CA736A1FD2AF3E006E1593 /* AFSecurityPolicy.m in Sources */,
 				A0487E861FD1AFA300FC3BC0 /* main.m in Sources */,
+				A0CA73541FD23E05006E1593 /* SPConstant.m in Sources */,
+				A0CA738A1FD2B0A3006E1593 /* MASLayoutConstraint.m in Sources */,
+				A0CA73651FD2AF3E006E1593 /* AFURLResponseSerialization.m in Sources */,
+				A0CA73681FD2AF3E006E1593 /* AFURLRequestSerialization.m in Sources */,
+				A0CA738B1FD2B0A3006E1593 /* NSArray+MASAdditions.m in Sources */,
 				A0487E781FD1AFA300FC3BC0 /* AppDelegate.m in Sources */,
+				A0CA73BF1FD2B74F006E1593 /* NXVLogFormatter.m in Sources */,
+				A0CA738E1FD2B0A3006E1593 /* MASViewConstraint.m in Sources */,
+				A0CA73691FD2AF3E006E1593 /* AFNetworkReachabilityManager.m in Sources */,
+				A0CA73661FD2AF3E006E1593 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +651,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/BasicProject/Config/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -417,6 +666,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -456,6 +706,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/BasicProject/Config/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -465,6 +716,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
