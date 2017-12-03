@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "NXVLogFormatter.h"
 #import "SPBaseViewController.h"
+#import "SPSDKManager.h"
 
 @interface AppDelegate ()
 
@@ -16,18 +16,12 @@
 
 @implementation AppDelegate
 
-- (void)initializeDDLogger
-{
-    [DDLog addLogger:[DDTTYLogger sharedInstance]];
-    [[DDTTYLogger sharedInstance] setLogFormatter:[NXVLogFormatter new]];
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [self initializeDDLogger];
     
-    
-//    self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+    self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+    [[SPSDKManager new] launchInWindow:self.window];
+
 //    self.window.rootViewController = [[SPBaseViewController alloc] init];
 //    [self.window makeKeyAndVisible];
 
