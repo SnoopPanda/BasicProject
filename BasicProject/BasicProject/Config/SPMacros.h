@@ -10,6 +10,8 @@
 #define SPMacros_h
 
 // Custom Macros
+#pragma mark -
+#define UTIL_BASE_URL                                              @"https://www.baidu.com"
 
 #pragma mark - 全局颜色配置
 #define BACKGROUND_IMAGE                                           (__bridge id)[UIImage imageNamed:@"application_bg"].CGImage
