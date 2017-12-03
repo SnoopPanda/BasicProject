@@ -18,6 +18,7 @@
 		A0487EB01FD1B07A00FC3BC0 /* SPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0487EAF1FD1B07A00FC3BC0 /* SPBaseNavigationController.m */; };
 		A09416521FD2D17800D995D3 /* SPBaseHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A09416511FD2D17800D995D3 /* SPBaseHTTPManager.m */; };
 		A09416931FD3AEB500D995D3 /* SPBaseHTTPAPIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A09416921FD3AEB500D995D3 /* SPBaseHTTPAPIConfig.m */; };
+		A094169B1FD3B01A00D995D3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A094169A1FD3B01A00D995D3 /* UIView+Extension.m */; };
 		A0CA73541FD23E05006E1593 /* SPConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73531FD23E05006E1593 /* SPConstant.m */; };
 		A0CA73651FD2AF3E006E1593 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA735C1FD2AF3E006E1593 /* AFURLResponseSerialization.m */; };
 		A0CA73661FD2AF3E006E1593 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA735D1FD2AF3E006E1593 /* AFHTTPSessionManager.m */; };
@@ -91,6 +92,8 @@
 		A09416511FD2D17800D995D3 /* SPBaseHTTPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPBaseHTTPManager.m; sourceTree = "<group>"; };
 		A09416911FD3AEB500D995D3 /* SPBaseHTTPAPIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPBaseHTTPAPIConfig.h; sourceTree = "<group>"; };
 		A09416921FD3AEB500D995D3 /* SPBaseHTTPAPIConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPBaseHTTPAPIConfig.m; sourceTree = "<group>"; };
+		A09416991FD3B01A00D995D3 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		A094169A1FD3B01A00D995D3 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		A0CA73521FD1B5D1006E1593 /* SPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMacros.h; sourceTree = "<group>"; };
 		A0CA73531FD23E05006E1593 /* SPConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPConstant.m; sourceTree = "<group>"; };
 		A0CA73551FD23E1B006E1593 /* SPConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPConstant.h; sourceTree = "<group>"; };
@@ -281,6 +284,7 @@
 		A0487EB51FD1B2C300FC3BC0 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				A09416941FD3AFC800D995D3 /* Category */,
 				A094164F1FD2D10100D995D3 /* Network */,
 			);
 			path = Expand;
@@ -304,6 +308,15 @@
 				A09416921FD3AEB500D995D3 /* SPBaseHTTPAPIConfig.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		A09416941FD3AFC800D995D3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A09416991FD3B01A00D995D3 /* UIView+Extension.h */,
+				A094169A1FD3B01A00D995D3 /* UIView+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		A0CA73571FD2AF3E006E1593 /* AFNetworking */ = {
@@ -559,6 +572,7 @@
 				A0CA73B61FD2B206006E1593 /* DDDispatchQueueLogFormatter.m in Sources */,
 				A0CA73861FD2B0A3006E1593 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A0CA73B91FD2B206006E1593 /* DDAbstractDatabaseLogger.m in Sources */,
+				A094169B1FD3B01A00D995D3 /* UIView+Extension.m in Sources */,
 				A0CA73B21FD2B206006E1593 /* DDASLLogger.m in Sources */,
 				A0CA73671FD2AF3E006E1593 /* AFURLSessionManager.m in Sources */,
 				A0CA73B31FD2B206006E1593 /* CLIColor.m in Sources */,
