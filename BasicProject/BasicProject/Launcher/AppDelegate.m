@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "SPBaseViewController.h"
 #import "SPSDKManager.h"
+#import "SPLaunchManager.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,8 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
-    [[SPSDKManager new] launchInWindow:self.window];
+    [[SPLaunchManager manager] launchInWindow:self.window];
+    [[SPSDKManager manager] launchInWindow:self.window];
 
 //    self.window.rootViewController = [[SPBaseViewController alloc] init];
 //    [self.window makeKeyAndVisible];

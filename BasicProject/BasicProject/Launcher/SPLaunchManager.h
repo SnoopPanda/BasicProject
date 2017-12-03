@@ -1,5 +1,5 @@
 //
-//  SPSDKManager.h
+//  SPLaunchManager.h
 //  BasicProject
 //
 //  Created by WangJie on 2017/12/3.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SPSDKManager : NSObject
+@interface SPLaunchManager : NSObject
 
 + (instancetype)manager;
 - (void)launchInWindow:(UIWindow *)window;

@@ -15,6 +15,15 @@
 
 @implementation SPSDKManager
 
++ (instancetype)manager {
+    static SPSDKManager *manager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        manager = [[self alloc] init];
+    });
+    return manager;
+}
+
 - (void)launchInWindow:(UIWindow *)window {
     
     // DDLog - 日志系统

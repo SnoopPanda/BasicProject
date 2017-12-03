@@ -80,6 +80,7 @@
 		A09417F71FD3CBF600D995D3 /* Harpy.m in Sources */ = {isa = PBXBuildFile; fileRef = A09417F41FD3CBF600D995D3 /* Harpy.m */; };
 		A09417F81FD3CBF600D995D3 /* Harpy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A09417F51FD3CBF600D995D3 /* Harpy.bundle */; };
 		A09417FC1FD3CC5C00D995D3 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = A09417FB1FD3CC5C00D995D3 /* UIView+Toast.m */; };
+		A09417FF1FD3D20700D995D3 /* SPLaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A09417FE1FD3D20700D995D3 /* SPLaunchManager.m */; };
 		A0CA73541FD23E05006E1593 /* SPConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA73531FD23E05006E1593 /* SPConstant.m */; };
 		A0CA73651FD2AF3E006E1593 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA735C1FD2AF3E006E1593 /* AFURLResponseSerialization.m */; };
 		A0CA73661FD2AF3E006E1593 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA735D1FD2AF3E006E1593 /* AFHTTPSessionManager.m */; };
@@ -271,6 +272,8 @@
 		A09417F61FD3CBF600D995D3 /* Harpy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Harpy.h; sourceTree = "<group>"; };
 		A09417FA1FD3CC5C00D995D3 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		A09417FB1FD3CC5C00D995D3 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		A09417FD1FD3D20700D995D3 /* SPLaunchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLaunchManager.h; sourceTree = "<group>"; };
+		A09417FE1FD3D20700D995D3 /* SPLaunchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLaunchManager.m; sourceTree = "<group>"; };
 		A0CA73521FD1B5D1006E1593 /* SPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMacros.h; sourceTree = "<group>"; };
 		A0CA73531FD23E05006E1593 /* SPConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPConstant.m; sourceTree = "<group>"; };
 		A0CA73551FD23E1B006E1593 /* SPConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPConstant.h; sourceTree = "<group>"; };
@@ -586,6 +589,8 @@
 				A0487E771FD1AFA300FC3BC0 /* AppDelegate.m */,
 				A09416A31FD3C1A000D995D3 /* SPSDKManager.h */,
 				A09416A41FD3C1A000D995D3 /* SPSDKManager.m */,
+				A09417FD1FD3D20700D995D3 /* SPLaunchManager.h */,
+				A09417FE1FD3D20700D995D3 /* SPLaunchManager.m */,
 			);
 			path = Launcher;
 			sourceTree = "<group>";
@@ -1025,6 +1030,7 @@
 				A09417E41FD3CB4F00D995D3 /* NSObject+MJProperty.m in Sources */,
 				A09417E11FD3CB4F00D995D3 /* MJProperty.m in Sources */,
 				A0487EB01FD1B07A00FC3BC0 /* SPBaseNavigationController.m in Sources */,
+				A09417FF1FD3D20700D995D3 /* SPLaunchManager.m in Sources */,
 				A09417451FD3C71F00D995D3 /* DDOSLogger.m in Sources */,
 				A094174E1FD3C71F00D995D3 /* DDFileLogger.m in Sources */,
 				A0CA736A1FD2AF3E006E1593 /* AFSecurityPolicy.m in Sources */,
